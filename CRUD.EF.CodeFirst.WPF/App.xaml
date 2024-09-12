@@ -1,0 +1,18 @@
+﻿<Application
+    x:Class="CRUD.EF.CodeFirst.WPF.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:hc="https://handyorg.github.io/handycontrol"
+    xmlns:local="clr-namespace:CRUD.EF.CodeFirst.WPF"
+    StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <hc:ThemeResources />
+                <hc:Theme />
+                <!--  Other merged dictionaries here  -->
+            </ResourceDictionary.MergedDictionaries>
+            <!--  Other app resources here  -->
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
